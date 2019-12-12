@@ -15,7 +15,7 @@ util/db.js
     		connectionLimit: 10,
     		options: {
        			 trustedConnection: true
-   	 }
+   	 	}
     };
 
 
