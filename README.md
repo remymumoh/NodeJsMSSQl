@@ -8,15 +8,15 @@ This is a very basic example of CRUD in Node.js and MSSQL with Model View Contro
 ## Configuration (database)
 util/db.js
 
-const dbConfig = {
-    "server": "REMY\\ZKTECO", //dbname
-    "user": "sa", //dbusername
-    "password": "password", //password
-    connectionLimit: 10,
-    options: {
-        trustedConnection: true
-    }
-};
+     const dbConfig = {
+   	"server": "REMY\\ZKTECO", //dbname
+    	"user": "sa", //dbusername
+    	"password": "password", //password
+    	connectionLimit: 10,
+    	options: {
+       	 trustedConnection: true
+   	 }
+    };
 
 
 	
